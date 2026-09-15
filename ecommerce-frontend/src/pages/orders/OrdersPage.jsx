@@ -5,7 +5,7 @@ import { useState, useEffect, Fragment } from "react";
 import { Header } from "../../components/Header";
 import "./OrdersPage.css";
 
-export function OrdersPage({ cart }) {
+export function OrdersPage({ cart, loadCart }) {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
