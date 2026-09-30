@@ -20,7 +20,7 @@ export function Header({ cart }: HeaderProps) {
     <div className="header">
       <div className="left-section">
         <Link to="/" className="header-link">
-          <img className="logo" src="public/images/logo-white.png" alt="" />
+          <img className="logo" src="/public/images/logo-white.png" alt="" />
           <img
             className="mobile-logo"
             src="public/images/mobile-logo-white.png"
